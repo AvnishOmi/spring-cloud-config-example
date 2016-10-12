@@ -4,16 +4,16 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.zoltanaltfatter</groupId>
-	<artifactId>spring-cloud-config-example</artifactId>
+	<artifactId>Spring-Cloud-Monitor-Notification</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>Spring Cloud Config Example</name>
+	<name>Spring Cloud Monitor Notification</name>
 	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.3.5.RELEASE</version>
+		 <version>1.4.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -23,10 +23,10 @@
 	</properties>
 
 	<modules>
-		<module>config-service</module>
-		<module>foo-service</module>
-		<module>bar-service</module>
-		<module>baz-service</module>
+		<module>Config-Server</module>
+		<module>MyFirst-service</module>
+		<module>MySecond-service</module>
+		<module>MyThird-service</module>
 	</modules>
 
 	<dependencies>
@@ -60,10 +60,10 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Brixton.SR1</version>
+				<version>Brixton.RELEASE</version>
 				<type>pom</type>
 				<scope>import</scope>
-			</dependency>
+		    </dependency>
 		</dependencies>
 	</dependencyManagement>
 	
